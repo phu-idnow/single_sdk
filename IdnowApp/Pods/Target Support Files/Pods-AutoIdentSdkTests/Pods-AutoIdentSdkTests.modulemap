@@ -1,0 +1,6 @@
+framework module Pods_AutoIdentSdkTests {
+  umbrella header "Pods-AutoIdentSdkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

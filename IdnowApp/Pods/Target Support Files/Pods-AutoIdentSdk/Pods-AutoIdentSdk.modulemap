@@ -1,0 +1,6 @@
+framework module Pods_AutoIdentSdk {
+  umbrella header "Pods-AutoIdentSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

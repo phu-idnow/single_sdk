@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CCAF59BDED4F3AB26C5D64F /* Pods_IdnowSdk_IdnowSdkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D242793B2619438B532CFD /* Pods_IdnowSdk_IdnowSdkTests.framework */; };
+		5A4CCE74221E7BC700B01338 /* VideoIdentSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A4CCE73221E7BC700B01338 /* VideoIdentSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A4CCE75221E7C0100B01338 /* IdnowSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAB7995221D45E00076A163 /* IdnowSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AAB799C221D45E00076A163 /* IdnowSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAB7992221D45E00076A163 /* IdnowSdk.framework */; };
+		5AAB79A1221D45E00076A163 /* IdnowSdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAB79A0221D45E00076A163 /* IdnowSdkTests.swift */; };
+		5AAB7A02221D47EB0076A163 /* IdnowSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAB7A01221D47EB0076A163 /* IdnowSDK.swift */; };
+		5AAB7A04221D48260076A163 /* AutoIdentSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAB79FC221D46F00076A163 /* AutoIdentSdk.framework */; };
+		5AAB7A07221D49B30076A163 /* libVideoIdentSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAB79D1221D46AF0076A163 /* libVideoIdentSdk.a */; };
+		5AAB7A12221D683D0076A163 /* IdnowSdk-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAB7A0C221D4C2E0076A163 /* IdnowSdk-Bridging-Header.h */; };
+		CE030A036059F39C0F2A6106 /* Pods_IdnowSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7C597B4659BBD92DBD66BA /* Pods_IdnowSdk.framework */; };
+		FFE56EE2266D85433AFA2DD7 /* Pods_IdnowSdkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC7CEDC415B973118E3E6C7 /* Pods_IdnowSdkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AAB799D221D45E00076A163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AAB7989221D45E00076A163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AAB7991221D45E00076A163;
+			remoteInfo = IdnowSdk;
+		};
+		5AAB79D0221D46AF0076A163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AAB79CC221D46AE0076A163 /* VideoIdentSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5AAB79C0221D46AE0076A163;
+			remoteInfo = VideoIdentSdk;
+		};
+		5AAB79FB221D46F00076A163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AAB79F6221D46EF0076A163 /* AutoIdentSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5AAB79DC221D46EF0076A163;
+			remoteInfo = AutoIdentSdk;
+		};
+		5AAB79FD221D46F00076A163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AAB79F6221D46EF0076A163 /* AutoIdentSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5AAB79E5221D46EF0076A163;
+			remoteInfo = AutoIdentSdkTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061634E8A2FF234F66546C50 /* Pods-IdnowSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdnowSdk.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-IdnowSdk/Pods-IdnowSdk.debug.xcconfig"; sourceTree = "<group>"; };
+		52D242793B2619438B532CFD /* Pods_IdnowSdk_IdnowSdkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdnowSdk_IdnowSdkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4CCE73221E7BC700B01338 /* VideoIdentSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoIdentSdk.h; path = IdnowSdk/VideoIdentSdk/VideoIdentSdk/VideoIdentSdk/VideoIdentSdk.h; sourceTree = SOURCE_ROOT; };
+		5AAB7992221D45E00076A163 /* IdnowSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdnowSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAB7995221D45E00076A163 /* IdnowSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdnowSdk.h; sourceTree = "<group>"; };
+		5AAB7996221D45E00076A163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AAB799B221D45E00076A163 /* IdnowSdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdnowSdkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAB79A0221D45E00076A163 /* IdnowSdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdnowSdkTests.swift; sourceTree = "<group>"; };
+		5AAB79A2221D45E00076A163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AAB79CC221D46AE0076A163 /* VideoIdentSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoIdentSdk.xcodeproj; path = VideoIdentSdk/VideoIdentSdk.xcodeproj; sourceTree = "<group>"; };
+		5AAB79F6221D46EF0076A163 /* AutoIdentSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AutoIdentSdk.xcodeproj; path = AutoIdentSdk/AutoIdentSdk.xcodeproj; sourceTree = "<group>"; };
+		5AAB7A01221D47EB0076A163 /* IdnowSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdnowSDK.swift; sourceTree = "<group>"; };
+		5AAB7A0C221D4C2E0076A163 /* IdnowSdk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IdnowSdk-Bridging-Header.h"; sourceTree = "<group>"; };
+		6B321249E65CCB79920B89C6 /* Pods-IdnowSdk-IdnowSdkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdnowSdk-IdnowSdkTests.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-IdnowSdk-IdnowSdkTests/Pods-IdnowSdk-IdnowSdkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		735E2BD2A1C6C093AEBFDAA7 /* Pods-IdnowSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdnowSdk.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-IdnowSdk/Pods-IdnowSdk.release.xcconfig"; sourceTree = "<group>"; };
+		7C7C597B4659BBD92DBD66BA /* Pods_IdnowSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdnowSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D62E27A65777B863852FDA /* Pods-IdnowSdk-IdnowSdkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdnowSdk-IdnowSdkTests.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-IdnowSdk-IdnowSdkTests/Pods-IdnowSdk-IdnowSdkTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCC7CEDC415B973118E3E6C7 /* Pods_IdnowSdkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdnowSdkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C879BC9D28190001555B3D78 /* Pods-IdnowSdkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdnowSdkTests.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-IdnowSdkTests/Pods-IdnowSdkTests.release.xcconfig"; sourceTree = "<group>"; };
+		EDE88120569A9F436F4988CD /* Pods-IdnowSdkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdnowSdkTests.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-IdnowSdkTests/Pods-IdnowSdkTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AAB798F221D45E00076A163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AAB7A07221D49B30076A163 /* libVideoIdentSdk.a in Frameworks */,
+				5AAB7A04221D48260076A163 /* AutoIdentSdk.framework in Frameworks */,
+				CE030A036059F39C0F2A6106 /* Pods_IdnowSdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB7998221D45E00076A163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AAB799C221D45E00076A163 /* IdnowSdk.framework in Frameworks */,
+				1CCAF59BDED4F3AB26C5D64F /* Pods_IdnowSdk_IdnowSdkTests.framework in Frameworks */,
+				FFE56EE2266D85433AFA2DD7 /* Pods_IdnowSdkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B52C9633D2A341F68025257 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				061634E8A2FF234F66546C50 /* Pods-IdnowSdk.debug.xcconfig */,
+				735E2BD2A1C6C093AEBFDAA7 /* Pods-IdnowSdk.release.xcconfig */,
+				6B321249E65CCB79920B89C6 /* Pods-IdnowSdk-IdnowSdkTests.debug.xcconfig */,
+				82D62E27A65777B863852FDA /* Pods-IdnowSdk-IdnowSdkTests.release.xcconfig */,
+				EDE88120569A9F436F4988CD /* Pods-IdnowSdkTests.debug.xcconfig */,
+				C879BC9D28190001555B3D78 /* Pods-IdnowSdkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A4CCE57221E5A5D00B01338 /* Supporting headers */ = {
+			isa = PBXGroup;
+			children = (
+				5A4CCE73221E7BC700B01338 /* VideoIdentSdk.h */,
+			);
+			path = "Supporting headers";
+			sourceTree = "<group>";
+		};
+		5AAB7988221D45E00076A163 = {
+			isa = PBXGroup;
+			children = (
+				5A4CCE57221E5A5D00B01338 /* Supporting headers */,
+				5AAB7994221D45E00076A163 /* IdnowSdk */,
+				5AAB799F221D45E00076A163 /* IdnowSdkTests */,
+				5AAB7993221D45E00076A163 /* Products */,
+				5AAB7A03221D48260076A163 /* Frameworks */,
+				2B52C9633D2A341F68025257 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5AAB7993221D45E00076A163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB7992221D45E00076A163 /* IdnowSdk.framework */,
+				5AAB799B221D45E00076A163 /* IdnowSdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AAB7994221D45E00076A163 /* IdnowSdk */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB79B6221D46120076A163 /* AutoIdentSdk */,
+				5AAB79B5221D46040076A163 /* VideoIdentSdk */,
+				5AAB7995221D45E00076A163 /* IdnowSdk.h */,
+				5AAB7996221D45E00076A163 /* Info.plist */,
+				5AAB7A01221D47EB0076A163 /* IdnowSDK.swift */,
+				5AAB7A0C221D4C2E0076A163 /* IdnowSdk-Bridging-Header.h */,
+			);
+			path = IdnowSdk;
+			sourceTree = "<group>";
+		};
+		5AAB799F221D45E00076A163 /* IdnowSdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB79A0221D45E00076A163 /* IdnowSdkTests.swift */,
+				5AAB79A2221D45E00076A163 /* Info.plist */,
+			);
+			path = IdnowSdkTests;
+			sourceTree = "<group>";
+		};
+		5AAB79B5221D46040076A163 /* VideoIdentSdk */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB79CC221D46AE0076A163 /* VideoIdentSdk.xcodeproj */,
+			);
+			path = VideoIdentSdk;
+			sourceTree = "<group>";
+		};
+		5AAB79B6221D46120076A163 /* AutoIdentSdk */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB79F6221D46EF0076A163 /* AutoIdentSdk.xcodeproj */,
+			);
+			path = AutoIdentSdk;
+			sourceTree = "<group>";
+		};
+		5AAB79CD221D46AE0076A163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB79D1221D46AF0076A163 /* libVideoIdentSdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AAB79F7221D46EF0076A163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AAB79FC221D46F00076A163 /* AutoIdentSdk.framework */,
+				5AAB79FE221D46F00076A163 /* AutoIdentSdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AAB7A03221D48260076A163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C7C597B4659BBD92DBD66BA /* Pods_IdnowSdk.framework */,
+				52D242793B2619438B532CFD /* Pods_IdnowSdk_IdnowSdkTests.framework */,
+				BCC7CEDC415B973118E3E6C7 /* Pods_IdnowSdkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AAB798D221D45E00076A163 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4CCE74221E7BC700B01338 /* VideoIdentSdk.h in Headers */,
+				5A4CCE75221E7C0100B01338 /* IdnowSdk.h in Headers */,
+				5AAB7A12221D683D0076A163 /* IdnowSdk-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5AAB7991221D45E00076A163 /* IdnowSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AAB79A6221D45E00076A163 /* Build configuration list for PBXNativeTarget "IdnowSdk" */;
+			buildPhases = (
+				4EBE63ADB897314FCA414C7D /* [CP] Check Pods Manifest.lock */,
+				5AAB798D221D45E00076A163 /* Headers */,
+				5AAB798E221D45E00076A163 /* Sources */,
+				5AAB798F221D45E00076A163 /* Frameworks */,
+				5AAB7990221D45E00076A163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdnowSdk;
+			productName = IdnowSdk;
+			productReference = 5AAB7992221D45E00076A163 /* IdnowSdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AAB799A221D45E00076A163 /* IdnowSdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AAB79A9221D45E00076A163 /* Build configuration list for PBXNativeTarget "IdnowSdkTests" */;
+			buildPhases = (
+				371434D418828580C01D605A /* [CP] Check Pods Manifest.lock */,
+				5AAB7997221D45E00076A163 /* Sources */,
+				5AAB7998221D45E00076A163 /* Frameworks */,
+				5AAB7999221D45E00076A163 /* Resources */,
+				359C3D775EA245E5F56E1888 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AAB799E221D45E00076A163 /* PBXTargetDependency */,
+			);
+			name = IdnowSdkTests;
+			productName = IdnowSdkTests;
+			productReference = 5AAB799B221D45E00076A163 /* IdnowSdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AAB7989221D45E00076A163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = anonymous;
+				TargetAttributes = {
+					5AAB7991221D45E00076A163 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					5AAB799A221D45E00076A163 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 5AAB798C221D45E00076A163 /* Build configuration list for PBXProject "IdnowSdk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AAB7988221D45E00076A163;
+			productRefGroup = 5AAB7993221D45E00076A163 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5AAB79F7221D46EF0076A163 /* Products */;
+					ProjectRef = 5AAB79F6221D46EF0076A163 /* AutoIdentSdk.xcodeproj */;
+				},
+				{
+					ProductGroup = 5AAB79CD221D46AE0076A163 /* Products */;
+					ProjectRef = 5AAB79CC221D46AE0076A163 /* VideoIdentSdk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5AAB7991221D45E00076A163 /* IdnowSdk */,
+				5AAB799A221D45E00076A163 /* IdnowSdkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5AAB79D1221D46AF0076A163 /* libVideoIdentSdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVideoIdentSdk.a;
+			remoteRef = 5AAB79D0221D46AF0076A163 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AAB79FC221D46F00076A163 /* AutoIdentSdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AutoIdentSdk.framework;
+			remoteRef = 5AAB79FB221D46F00076A163 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AAB79FE221D46F00076A163 /* AutoIdentSdkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AutoIdentSdkTests.xctest;
+			remoteRef = 5AAB79FD221D46F00076A163 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AAB7990221D45E00076A163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB7999221D45E00076A163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		359C3D775EA245E5F56E1888 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../../Pods/Target Support Files/Pods-IdnowSdkTests/Pods-IdnowSdkTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-IdnowSdkTests/Pods-IdnowSdkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		371434D418828580C01D605A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IdnowSdkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBE63ADB897314FCA414C7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IdnowSdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AAB798E221D45E00076A163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AAB7A02221D47EB0076A163 /* IdnowSDK.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAB7997221D45E00076A163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AAB79A1221D45E00076A163 /* IdnowSdkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AAB799E221D45E00076A163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AAB7991221D45E00076A163 /* IdnowSdk */;
+			targetProxy = 5AAB799D221D45E00076A163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AAB79A4221D45E00076A163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AAB79A5221D45E00076A163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AAB79A7221D45E00076A163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061634E8A2FF234F66546C50 /* Pods-IdnowSdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/IdnowSdk/VideoIdentSdk/VideoIdentSdk/VideoIdentSdk\"";
+				INFOPLIST_FILE = IdnowSdk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/IdnowApp-gxxaijljrcbuhrblhiagkxlfsglk/Build/Products/Debug-iphonesimulator/include\"/**";
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.idnow.IdnowSdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AAB79A8221D45E00076A163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735E2BD2A1C6C093AEBFDAA7 /* Pods-IdnowSdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/IdnowSdk/VideoIdentSdk/VideoIdentSdk/VideoIdentSdk\"";
+				INFOPLIST_FILE = IdnowSdk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/IdnowApp-gxxaijljrcbuhrblhiagkxlfsglk/Build/Products/Debug-iphonesimulator/include\"/**";
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.idnow.IdnowSdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AAB79AA221D45E00076A163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE88120569A9F436F4988CD /* Pods-IdnowSdkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IdnowSdkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/IdnowApp-gxxaijljrcbuhrblhiagkxlfsglk/Build/Products/Debug-iphonesimulator/include/VideoIdentSdk\"/**";
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.idnow.IdnowSdkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AAB79AB221D45E00076A163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C879BC9D28190001555B3D78 /* Pods-IdnowSdkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IdnowSdkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/IdnowApp-gxxaijljrcbuhrblhiagkxlfsglk/Build/Products/Debug-iphonesimulator/include/VideoIdentSdk\"/**";
+				PRODUCT_BUNDLE_IDENTIFIER = asia.nfq.idnow.IdnowSdkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AAB798C221D45E00076A163 /* Build configuration list for PBXProject "IdnowSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAB79A4221D45E00076A163 /* Debug */,
+				5AAB79A5221D45E00076A163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AAB79A6221D45E00076A163 /* Build configuration list for PBXNativeTarget "IdnowSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAB79A7221D45E00076A163 /* Debug */,
+				5AAB79A8221D45E00076A163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AAB79A9221D45E00076A163 /* Build configuration list for PBXNativeTarget "IdnowSdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAB79AA221D45E00076A163 /* Debug */,
+				5AAB79AB221D45E00076A163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AAB7989221D45E00076A163 /* Project object */;
+}
