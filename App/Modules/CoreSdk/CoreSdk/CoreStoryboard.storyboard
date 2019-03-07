@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Core Info View Controller-->
+        <scene sceneID="43A-mb-lgV">
+            <objects>
+                <viewController storyboardIdentifier="CoreInfoViewController" id="6sC-Bv-ADJ" customClass="CoreInfoViewController" customModule="CoreSdk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mN7-3c-SbB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="hEQ-LH-6bY">
+                                <rect key="frame" x="37.5" y="317" width="300" height="33"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7x-zS-xwH">
+                                        <rect key="frame" x="0.0" y="0.0" width="139.5" height="33"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.33725490200000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Start AutoIdent">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="startA:" destination="6sC-Bv-ADJ" eventType="touchUpInside" id="jOf-aT-Hq8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOH-u3-oQT">
+                                        <rect key="frame" x="160.5" y="0.0" width="139.5" height="33"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.33725490200000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Start VideoIdent">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="startB:" destination="6sC-Bv-ADJ" eventType="touchUpInside" id="JTG-Qm-pX1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="I4r-Gg-qVk"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the Core Screen. Depend on the input token from HostApp, core SDK will navigate to respective ident flow." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAG-uI-5UZ">
+                                <rect key="frame" x="30" y="196" width="315" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOKEN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJS-yc-TPE">
+                                <rect key="frame" x="155" y="583" width="65" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wl2-hB-Lf9" firstAttribute="trailing" secondItem="JAG-uI-5UZ" secondAttribute="trailing" constant="30" id="AQT-HM-oPA"/>
+                            <constraint firstItem="JAG-uI-5UZ" firstAttribute="leading" secondItem="wl2-hB-Lf9" secondAttribute="leading" constant="30" id="FK2-tB-VWX"/>
+                            <constraint firstItem="hEQ-LH-6bY" firstAttribute="top" secondItem="JAG-uI-5UZ" secondAttribute="bottom" constant="60" id="Hn6-z7-Gbe"/>
+                            <constraint firstItem="wl2-hB-Lf9" firstAttribute="bottom" secondItem="WJS-yc-TPE" secondAttribute="bottom" constant="60" id="IYJ-xG-dom"/>
+                            <constraint firstItem="hEQ-LH-6bY" firstAttribute="centerX" secondItem="mN7-3c-SbB" secondAttribute="centerX" id="JLl-22-MHQ"/>
+                            <constraint firstItem="hEQ-LH-6bY" firstAttribute="centerY" secondItem="mN7-3c-SbB" secondAttribute="centerY" id="Wlm-Nh-BfW"/>
+                            <constraint firstItem="JAG-uI-5UZ" firstAttribute="centerX" secondItem="mN7-3c-SbB" secondAttribute="centerX" id="Y9k-l0-SE2"/>
+                            <constraint firstItem="WJS-yc-TPE" firstAttribute="centerX" secondItem="mN7-3c-SbB" secondAttribute="centerX" id="b1f-km-APm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wl2-hB-Lf9"/>
+                    </view>
+                    <connections>
+                        <outlet property="tokenLabel" destination="WJS-yc-TPE" id="zQE-Ax-zjG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="72y-Wz-Qxn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.8000000000000007" y="5.8470764617691158"/>
+        </scene>
+    </scenes>
+</document>
